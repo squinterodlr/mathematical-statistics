@@ -34,9 +34,9 @@ Here we type commands. We can ask for help:
 help(anova)
 ```
 If using RStudio, this opens the docpage in the window to the right.
-![[Pasted image 20210901113529.png]]
+![[assets/Pasted image 20210901113529.png]]
 In RStudio, we can also use the searchbar in the Help tab on the right:
-![[Screenshot_20210904_075011.png]]
+![[assets/Screenshot_20210904_075011.png]]
 We will talk about how to read this documentation below.
 
 ## Basic syntax
