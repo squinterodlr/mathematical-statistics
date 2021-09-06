@@ -34,7 +34,7 @@ Here we type commands. We can ask for help:
 help(anova)
 ```
 If using RStudio, this opens the docpage in the window to the right.
-![[assets/Pasted image 20210901113529.png]]
+![](assets/Pasted image 20210901113529.png)
 In RStudio, we can also use the searchbar in the Help tab on the right:
 ![[assets/Screenshot_20210904_075011.png]]
 We will talk about how to read this documentation below.
@@ -294,7 +294,7 @@ After you've done that, click on the Gear icon and then on **Set as Working Dire
 ![[Pasted image 20210904181149.png]]
 Once you do this, you've told R *where* to look for files.
 
-Now download the dataset (either from ItsLearning or from this link) and *make sure that the dataset is in the working directory*.
+Now download the dataset (either from ItsLearning or from [this link](https://github.com/squinterodlr/mathematical-statistics/tree/main/scripts)) and *make sure that the dataset is in the working directory*.
 
 Think of a dataframe like an Excel spreadsheet.
 
@@ -335,7 +335,7 @@ Calling the `str()` function also gives us an overview of the dataframe:
  ...
 ```
 
-With this we see that this is a list of Pokémon.[^1]
+With this we see that this is a list of Pokémon.[^1][^2]
 We can get a column from `df$columnname`, and we can return (and change) the column names by querying `names()`:
 ```R
 > dataset$name   
@@ -405,3 +405,4 @@ Note that the order of the columns is the same as the order of the list we passe
 We can add a column to the right with `cbind(df,newCol)`, and a row below with `rbind(df, newRow)`.
 
 [^1]: Did you know that Pokémon is the [highest-grossing media franchise](https://en.wikipedia.org/wiki/List_of_highest-grossing_media_franchises)? And most of the profits come from merch.
+[^2]:I got this dataset from [Kaggle](https://www.kaggle.com/). There's many others to play with!
